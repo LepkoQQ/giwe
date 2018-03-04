@@ -4,7 +4,15 @@
   "description": "GitHub webhook server",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["giwe", "github", "webhook", "git", "hook", "server", "express"],
+  "keywords": [
+    "giwe",
+    "github",
+    "webhook",
+    "git",
+    "hook",
+    "server",
+    "express"
+  ],
   "author": "LepkoQQ",
   "repository": {
     "type": "git",
@@ -14,5 +22,11 @@
   "dependencies": {
     "body-parser": "1.18.2",
     "express": "4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "4.9.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "prettier": "1.11.1"
   }
 }
